@@ -29,35 +29,35 @@ void main() {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-            title: Text('Home'),
+            label: 'Home',
             icon: Icon(
               Icons.home,
               color: Colors.black,
             ),
           ),
           BottomNavigationBarItem(
-            title: Text('Search'),
+            label: 'Search',
             icon: Icon(
               Icons.search,
               color: Colors.black,
             ),
           ),
           BottomNavigationBarItem(
-            title: Text('Add'),
+            label: 'Add',
             icon: Icon(
               Icons.add_box,
               color: Colors.black,
             ),
           ),
           BottomNavigationBarItem(
-            title: Text('data'),
+            label: 'data',
             icon: Icon(
               Icons.favorite_border,
               color: Colors.black,
             ),
           ),
           BottomNavigationBarItem(
-            title: Text('Profile'),
+            label: 'Profile',
             icon: Icon(
               Icons.perm_identity,
               color: Colors.black,
